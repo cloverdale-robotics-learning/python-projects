@@ -1,0 +1,7 @@
+[project]
+name = "python-projects"
+version = "0.1.0"
+requires-python = "~=3.10.0"
+
+[tool.ruff.lint]
+extend-ignore = ["ANN", "S", "B", "PLR2004", "RET504"]
